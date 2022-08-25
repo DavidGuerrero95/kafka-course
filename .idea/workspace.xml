@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6529973e-a04b-407e-90d7-497883a32a4c" name="Changes" comment="Java Consumer">
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/course/ConsumerDemoWithShutdown.java" afterDir="false" />
+    <list default="true" id="6529973e-a04b-407e-90d7-497883a32a4c" name="Changes" comment="Java Consumer - Graceful Shutdown">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/course/ConsumerDemoWithShutdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/course/ConsumerDemoWithShutdown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <recent name="com.kafka.course" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemoWithShutdown">
+  <component name="RunManager" selected="Application.ProducerDemoKeys">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kafka.course.ConsumerDemo" />
       <module name="kafka-course.kafka-basics.main" />
@@ -83,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerDemoWithShutdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsumerDemoWithShutdown" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kafka.course.ConsumerDemoWithShutdown" />
       <module name="kafka-course.kafka-basics.main" />
       <extension name="coverage">
@@ -135,10 +136,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ConsumerDemo" />
+      <item itemvalue="Application.ConsumerDemoWithShutdown" />
+      <item itemvalue="Application.ProducerDemo" />
+      <item itemvalue="Application.ProducerDemoKeys" />
+      <item itemvalue="Application.ProducerDemoWithCallback" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumerDemoWithShutdown" />
         <item itemvalue="Application.ProducerDemoKeys" />
+        <item itemvalue="Application.ConsumerDemoWithShutdown" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemoWithCallback" />
         <item itemvalue="Application.ProducerDemo" />
@@ -175,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661442180105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Java Consumer - Graceful Shutdown">
+      <created>1661443008665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661443008665</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +208,7 @@
     <MESSAGE value="Kafka producer Callbacks" />
     <MESSAGE value="Java Producer with Keys" />
     <MESSAGE value="Java Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Consumer" />
+    <MESSAGE value="Java Consumer - Graceful Shutdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Consumer - Graceful Shutdown" />
   </component>
 </project>
