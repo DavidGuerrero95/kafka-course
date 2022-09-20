@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6529973e-a04b-407e-90d7-497883a32a4c" name="Changes" comment="Java Kafka Advanced">
-      <change afterPath="$PROJECT_DIR$/kafka-consumer-opensearch/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-consumer-opensearch/src/main/java/com/kafka/course/OpenSearchConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-consumer-opensearch/src/main/java/com/kafka/course/OpenSearchConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer-opensearch/src/main/java/com/kafka/course/OpenSearchConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/com/kafka/course/kafka/wikimedia/WikimediaChangeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/com/kafka/course/kafka/wikimedia/WikimediaChangeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/com/kafka/course/kafka/wikimedia/WikimediaChangesProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/com/kafka/course/kafka/wikimedia/WikimediaChangesProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="com.kafka.course" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OpenSearchConsumer">
+  <component name="RunManager" selected="Application.WikimediaChangesProducer">
     <configuration name="ConsumerDemoCooperative" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kafka.course.ConsumerDemoCooperative" />
       <module name="kafka-course.kafka-basics.main" />
@@ -148,8 +147,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OpenSearchConsumer" />
         <item itemvalue="Application.WikimediaChangesProducer" />
+        <item itemvalue="Application.OpenSearchConsumer" />
         <item itemvalue="Docker.kafka-consumer-opensearch: Compose Deployment" />
         <item itemvalue="Application.ConsumerDemoCooperative" />
         <item itemvalue="Application.ProducerDemoKeys" />
@@ -228,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663687549434</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Java Kafka Advanced">
+      <created>1663702092429</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663702092429</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
